@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/setup-python@v4requirements.txt
+        uses: actions/setup-python@v4 requirements.txt
         with:
           python-version: '3.8'
 
